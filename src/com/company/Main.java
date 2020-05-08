@@ -1,5 +1,7 @@
 package com.company;
 
+import newpackage.Rectangle;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,13 +20,17 @@ public class Main {
 //        mana=mana*5;
 //        System.out.println(mana);
 
-            String welcominggreeting ="yo";
-            int numberOfTimes=200;
-            for (int j=0; j < numberOfTimes; j=j+1) {
+//            //String welcominggreeting ="yo";
+//            int numberOfTimes=200;
+//            for (int j=0; j < numberOfTimes; j=j+1) {
+//
+//                System.out.println(j);
+//            }
+//            welcominggreeting=welcominggreeting+"im learning coding";
+//            System.out.println(welcominggreeting);
 
-                System.out.println(j);
-            }
-            welcominggreeting=welcominggreeting+"im learning coding";
-            System.out.println(welcominggreeting);
+        Rectangle rectangle = new Rectangle();
+        int area = rectangle.getArea(rectangle.length,rectangle.width);
+        System.out.println(area);
     }
 }
